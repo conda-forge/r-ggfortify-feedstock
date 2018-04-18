@@ -1,4 +1,4 @@
-{% set version = "0.4.3" %}
+{% set version = "0.4.4" %}
 
 package:
   name: r-ggfortify
@@ -9,7 +9,7 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/ggfortify_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/ggfortify/ggfortify_{{ version }}.tar.gz
-  sha256: 0fef4911ba79fd3adfcce8d00d149c5c838a305c5807b8774d39d9f304c22e0c
+  sha256: e9558eaf8fad8c57f0afccd91457ac6d07aaba5d97117c4f12e077ec0970df89
 
 build:
   number: 0
