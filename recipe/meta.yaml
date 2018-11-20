@@ -14,9 +14,9 @@ source:
   sha256: 359b75e337b15e938fd01a803f7fea82c7843b817e60223ff89f91f1ee8c0fd7
 
 build:
+  noarch: generic
   merge_build_host: True  # [win]
-  number: 1
-  skip: true  # [win32]
+  number: 1001
   rpaths:
     - lib/R/lib/
     - lib/
@@ -55,8 +55,7 @@ about:
     families, clustering and survival analysis. The package offers a single plotting
     interface for these analysis results and plots in a unified style using 'ggplot2'.
   license_family: GPL2
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'  # [unix]
-  license_file: '{{ environ["PREFIX"] }}\R\share\licenses\GPL-2'  # [win]
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
 
 extra:
   recipe-maintainers:
