@@ -5,7 +5,7 @@ Home: https://github.com/sinhrks/ggfortify
 
 Package license: GPL-2
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Unified plotting tools for statistics commonly used, such as GLM, time series, PCA families, clustering and survival analysis. The package offers a single plotting interface for these analysis results and plots in a unified style using 'ggplot2'.
 
