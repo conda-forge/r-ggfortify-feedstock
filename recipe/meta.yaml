@@ -49,7 +49,7 @@ test:
 
 about:
   home: https://github.com/sinhrks/ggfortify
-  license: GPL-2
+  license: GPL-2.0-only
   summary: Unified plotting tools for statistics commonly used, such as GLM, time series, PCA families, clustering and survival analysis. The package offers a single plotting interface for these analysis results and plots in a unified style using 'ggplot2'.
   license_family: GPL2
   license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
