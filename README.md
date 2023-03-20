@@ -1,11 +1,11 @@
-About r-ggfortify
-=================
+About r-ggfortify-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggfortify-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/sinhrks/ggfortify
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggfortify-feedstock/blob/main/LICENSE.txt)
 
 Summary: Unified plotting tools for statistics commonly used, such as GLM, time series, PCA families, clustering and survival analysis. The package offers a single plotting interface for these analysis results and plots in a unified style using 'ggplot2'.
 
