@@ -1,4 +1,4 @@
-{% set version = "0.4.16" %}
+{% set version = "0.4.17" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggfortify_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggfortify/ggfortify_{{ version }}.tar.gz
-  sha256: bb1bee685cb97a9ac1b1a6592b96571752a9e195575a1584f1c046c53c510316
+  sha256: 4f75a5567e0cb5f8d6340bc5537d0131c8a6c6a705c2c4305faaa6b4c6dcebf9
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
