@@ -1,4 +1,4 @@
-{% set version = "0.4.24" %}
+{% set version = "0.4.25" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggfortify_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggfortify/ggfortify_{{ version }}.tar.gz
-  sha256: 6d648334766c2544cf15f3d10fd3c04e2f19e19edd8538fe7124cb4ee4f40628
+  sha256: 555595f689338cf8ea78614f65d975a6c935bfd56045fc84309de4b0bd4ed5d7
 
 build:
   number: 0
